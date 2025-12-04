@@ -25,7 +25,6 @@ export default function LandingPage() {
       cardStyle="solid-bordered"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="solid"
-      headingFontWeight="medium"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
