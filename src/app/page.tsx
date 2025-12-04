@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -25,6 +25,7 @@ export default function LandingPage() {
       cardStyle="solid-bordered"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="solid"
+      headingFontWeight="medium"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
